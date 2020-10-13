@@ -8,6 +8,45 @@
 
 const getDaysInMonth = (month) => {
   // Insert missing solution please
+  let count = 0;
+  switch (month) {
+    case "January":
+      count = 31;
+      return count;
+    case "February":
+      count = 28;
+      return count;
+    case "March":
+      count = 31;
+      return count;
+    case "April":
+      count = 30;
+      return count;
+    case "May":
+      count = 31;
+      return count;
+    case "June":
+      count = 30;
+      return count;
+    case "July":
+      count = 31;
+      return count;
+    case "August":
+      count = 31;
+      return count;
+    case "September":
+      count = 30;
+      return count;
+    case "October":
+      count = 31;
+      return count;
+    case "November":
+      count = 30;
+      return count;
+    case "December":
+      count = 31;
+      return count;
+  }
 };
 
 // 2. Do a console.log to verify your function.

@@ -7,6 +7,10 @@
 
 const getValues = (arr, key) => {
   // Insert missing solution please
+  let valueArr = arr.map((value) => {
+    return value[key];
+  });
+  return valueArr;
 };
 
 // 2. Do a console.log to verify your function.
